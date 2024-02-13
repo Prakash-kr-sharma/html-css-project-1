@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffc233;
+}
+.logo, nav ul{
+    cursor: pointer;
+}
+header button{
+    width: 70px;
+    font-size: medium;
+}
+section{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    color: #ffc233;
+}
+section button{
+    padding: 5px;
+    font-weight: 400;
+    margin: 20px;
+}
+footer img{
+    padding-left: 1200px;
+
+}
+button{
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ff505f;
+}
